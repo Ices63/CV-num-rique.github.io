@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=PT+Serif:wght@700&display=swap'); /* Nom prénom ..font-family: 'PT Serif', serif;.. */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap'); /* Web Dev + titres ..font-family: 'Oswald', sans-serif;.. */
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap'); /* global text ..font-family: 'Noticia Text', serif;.. */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: white !important;
+    background-color: #292929 !important;
+    font-family: 'Noticia Text', sans-serif;
+    background: url(img/bg.jpg) no-repeat fixed 100% 100%;
+    background-size: cover;
+}
+
+h1 {
+    padding: 90px 0 10px 0;
+    font-family: 'PT Serif', serif;
+    font-size: 4.3em;
+    text-transform: uppercase;
+}
+
+h2,h3 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    text-align: center;
+    height: 100vh;
+}
+
+header .button {
+    margin-top: 45px;
+    position: relative;
+}
+
+header .button a {
+    padding: 20px;
+    border: 1px solid white;
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+}
+
+/* *******************************************HEADER************************************************ */
+
+.navbar {
+    background-color: rgb(183, 237, 253);
+    opacity: 0.9;
+    height: 42px;
+    transition: 0.7s;
+}
+
+.navbar-nav {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+/* *******************************************NavBar************************************************ */
+
+.presentation {
+    height: 240px;
+    margin-top: 20px;
+}
+
+.infos {
+    margin: auto;
+    height: 300px;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.photo {
+    margin: auto;
+    height: 300px;
+    border: 1px solid grey;
+    position: relative;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.photo img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: auto;
+    max-width: 90%;
+    border-radius: 3px;
+}
