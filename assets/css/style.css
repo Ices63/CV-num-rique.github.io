@@ -10,7 +10,7 @@ body {
     color: white !important;
     background-color: #292929 !important;
     font-family: 'Noticia Text', sans-serif;
-    background: url(../img/bg.jpg) no-repeat fixed 100% 100%;
+    background: url(../img/bg.jpg) no-repeat fixed;
     background-size: cover;
 }
 
@@ -51,7 +51,7 @@ main .button a {
 /* *******************************************HEADER************************************************ */
 
 .navbar, .navbar-toggler-icon {
-    background-color: rgb(183, 237, 253);
+    background-color: rgba(106, 144, 246, 0.5);
     opacity: 0.9;
     height: 42px;
     transition: 0.7s;
@@ -70,8 +70,8 @@ main .button a {
     justify-content: center;
 }
 
-.nav-item {
-    background-color: rgb(183, 237, 253);
+.nav-link {
+    color: white !important;
 }
 /* *******************************************NavBar************************************************ */
 
