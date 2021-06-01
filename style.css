@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=PT+Serif:wght@700&display=swap'); /* Nom prénom ..font-family: 'PT Serif', serif;.. */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap'); /* Web Dev + titres ..font-family: 'Oswald', sans-serif;.. */
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap'); /* global text ..font-family: 'Noticia Text', serif;.. */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: white !important;
+    background-color: #292929 !important;
+    font-family: 'Noticia Text', sans-serif;
+    background: url(../img/bg.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+.space {
+    height: 2vh;
+    background-color: transparent;
+}
+
+/* *******************************************NavBar************************************************ */
+
+.navbar, .navbar-toggler-icon {
+    background-color: rgba(106, 144, 246, 0.5);
+    opacity: 0.9;
+    height: 52px;
+    transition: 0.7s;
+}
+
+.navbar-nav {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.centerBtn {
+    margin-left: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.buttonCV {
+    margin-bottom: 0px;
+}
+
+.navbar-toggler {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+header .show,header .collapsing {
+    margin-top: 10px;
+    background-color: rgba(62, 89, 179, 0.9);
+    border-radius: 5px;
+    border: solid black 1px;
+}
+
+.marginTop {
+    margin-top: 10px;
+}
+
+/* navBrightEffect */
+
+  #brightFont {
+      position: absolute;
+    background-color: black;
+    opacity: 0.2;
+    height: 52px;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+#bright {
+    position: relative;
+    background-color: white;
+    transform: rotate(45deg);
+    background-image: linear-gradient(to right, rgba( 0,0,0,1 ) 35%, rgba( 0,0,0,0 ) 37%,
+        rgba( 0,0,0,1 ) 40%, rgba( 0,0,0,0 ) 45%, rgba( 0,0,0,0 ) 55%, rgba( 0,0,0,1 ) 60%);
+    color: white;
+    height: 1000%;
+    margin-top: -25%;
+    width: 20%;
+
+    animation: 60s linear 0s infinite BrightZone;
+  }
+@keyframes BrightZone { from { margin-left:-100%; } to { margin-left:150%; } }
+
+/* *******************************************Header************************************************ */
+
+.voidTop {
+    background-color: transparent;
+    height: 60px;
+}
+
+h1 {
+    font-family: 'PT Serif', serif;
+    font-size: 4.3em;
+    text-transform: uppercase;
+}
+
+h2,p {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+header, main {
+    text-align: center;
+}
+
+.photo {
+    margin: auto;
+    height: 300px;
+    border: 1px solid grey;
+    position: relative;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.photo img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: auto;
+    max-width: 90%;
+    border-radius: 3px;
+}
+
+main .button {
+    margin-top: 2em;
+    position: relative;
+}
+
+main .button a {
+    padding: 20px;
+    border: 1px solid white;
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+}
+
+/********************   modal de contact   ****************************/
+#contactContainer form {
+    /* Uniquement centrer la modal sur la page */
+    width: 400px;
+    /* Encadré pour voir les limites de la modal */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color: black;
+}
+  
+#contactContainer form div + div {
+    margin-top: 1em;
+}
+
+.infos {
+    margin: 0 auto;
+    margin-top: 20vh;
+    height: 300px;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+    background-color: black;
+    opacity: 0.9;
+}

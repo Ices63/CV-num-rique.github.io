@@ -16,8 +16,13 @@
 
 <body>
     <!-- BARRE DE NAVIGATION -->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <header class="fixed-top">
+
+        <div id="brightFont">
+            <div id="bright"></div>
+        </div>
+        
+        <nav class="navbar navbar-expand-lg navbar-light">
             <button class="navbar-toggler centerBtn" type="button" data-toggle="collapse" data-target="#navigation"
                 aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -25,27 +30,25 @@
             <div class="collapse navbar-collapse" id="navigation">
                 <ul class="navbar-nav">
                     <li class="nav-item" id="brice">
-                        <a href="#" class="nav-link">Brice Bayard</a>
+                        <a href="#" class="nav-link marginTop">Brice Bayard</a>
                     </li>
                     <li class="nav-item" id="langage">
-                        <a href="#langage" class="nav-link">Langages & Formations</a>
+                        <a href="#langage" class="nav-link">Langages Informatiques <br> & Parcours Professionnel</a>
                     </li>
-                    <li class="nav-item" id="skills">
-                        <a href="#skills" class="nav-link">Compétences</a>
+                    <li class="nav-item marginTop" id="skills">
+                        <a href="#skills" class="nav-link ">Compétences</a>
                     </li>
-                    <li class="nav-item" id="contact">
+                    <li class="nav-item marginTop" id="contact">
                         <a href="#contact" class="nav-link" data-toggle="modal"
                             data-target="#contactContainer">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <div id="brightFont">
-            <div id="bright"></div>
-        </div>
     </header>
 
     <main>
+        <div class="voidTop"></div>
         <!-- Présentation -->
         <div class="container" id="briceContainer">
 
@@ -69,14 +72,41 @@
 
         <!-- Languages_&_Formations -->
         <div class="container" id="langageContainer">
-            <div>
-                <p>Html</p>
-                <p>JavaScript</p>
-                <p>JQuery</p>
-                <p>C#</p>
-                <p>CSS</p>
-                <p>Bootstrap</p>
-                <p>SQL</p>
+            <div class="row">
+                <div class="col-12">
+                    <h1>Languages Informatiques</h1>
+                    <div class="space"></div>
+                    <div class="container row">
+                        <div class="col-6">
+                            <p>Html</p>
+                            <p>Bootstrap</p>
+                            <p>CSS</p>
+                            <p>JavaScript</p>
+                        </div>
+
+                        <div class="col-6">
+                            <p>JQuery</p>
+                            <p>C#</p>
+                            <p>SQL Server</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="space"></div>
+
+                <div class="row">
+                    <h1>Formations</h1>
+                    <p>Développeur Web et Web Mobile</p>
+                    <p>POEC Développeur .NET</p>
+                    <p>Mise à Niveau en Arts Appliqués</p>
+                    <p>Bac Professionnel en <br> étude et Définition des Produits Industriels</p>
+                </div>
+
+                <div class="space"></div>
+
+                <div class="row">
+                    <h1>Parcours Professionnel</h1>
+                </div>
             </div>
         </div>
 
