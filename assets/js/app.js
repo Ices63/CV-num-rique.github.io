@@ -1,5 +1,5 @@
 let brice = document.getElementById('briceContainer');
-let langage = document.getElementById('langageContainer');
+let langage = document.getElementById('careerContainer');
 let skills = document.getElementById('skillsContainer');
 let contact = document.getElementById('contactContainer');
 
