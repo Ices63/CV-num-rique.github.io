@@ -14,11 +14,6 @@ body {
     background-size: cover;
 }
 
-.space {
-    height: 2vh;
-    background-color: transparent;
-}
-
 /* *******************************************NavBar************************************************ */
 
 .navbar, .navbar-toggler-icon {
@@ -45,10 +40,6 @@ body {
     color: white !important;
 }
 
-.buttonCV {
-    margin-bottom: 0px;
-}
-
 .navbar-toggler {
     background-color: rgba(255, 255, 255, 0.5) !important;
 }
@@ -60,20 +51,16 @@ header .show,header .collapsing {
     border: solid black 1px;
 }
 
-.marginTop {
-    margin-top: 10px;
-}
-
 /* navBrightEffect */
 
-  #brightFont {
-      position: absolute;
+#brightFont {
+    position: absolute;
     background-color: black;
     opacity: 0.2;
     height: 52px;
     width: 100%;
     overflow: hidden;
-  }
+}
   
 #bright {
     position: relative;
@@ -87,20 +74,25 @@ header .show,header .collapsing {
     width: 20%;
 
     animation: 60s linear 0s infinite BrightZone;
-  }
+}
 @keyframes BrightZone { from { margin-left:-100%; } to { margin-left:150%; } }
 
-/* *******************************************Header************************************************ */
+/* *******************************************Fin du Header************************************************ */
+
 
 .voidTop {
     background-color: transparent;
-    height: 60px;
+    height: 100px;
 }
 
 h1 {
     font-family: 'PT Serif', serif;
     font-size: 4.3em;
     text-transform: uppercase;
+}
+
+#skillsContainer h1, #careerContainer h1 {
+    margin-bottom: 50px;
 }
 
 h2,p {
@@ -113,25 +105,18 @@ header, main {
     text-align: center;
 }
 
-.photo {
+.profilImage {
+    width: 50vh !important;
     margin: auto;
-    height: 300px;
     border: 1px solid grey;
-    position: relative;
     background-color: black;
     opacity: 0.9;
 }
 
-.photo img {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    height: auto;
-    max-width: 90%;
-    border-radius: 3px;
+.profilImage > img {
+    width: 50vh;
+    margin-left: -13px;
+    padding: 70px;
 }
 
 main .button {
@@ -147,6 +132,34 @@ main .button a {
     color: white;
 }
 
+/* Gauges de Compétences */
+
+.gaugeFont {
+    background-image: linear-gradient(0.4turn,lime 30%, orange 50%, red 80%);
+    border: black solid 3px;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin: auto;
+}
+
+.gaugeText {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 25px auto;
+}
+
+.gaugeText > p {
+    position: relative;
+    top: 35px;
+}
+
+.spacedElement {
+    height: 5vh;
+}
+
 /********************   modal de contact   ****************************/
 #contactContainer form {
     /* Uniquement centrer la modal sur la page */
@@ -158,7 +171,7 @@ main .button a {
     background-color: black;
 }
   
-#contactContainer form div + div {
+#contactContainer form div {
     margin-top: 1em;
 }
 
