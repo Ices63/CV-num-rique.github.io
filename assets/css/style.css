@@ -91,11 +91,11 @@ h1 {
     text-transform: uppercase;
 }
 
-#skillsContainer h1, #careerContainer h1 {
+#skillsContainer h1, #careerContainer h1, #contactContainer h1 {
     margin-bottom: 50px;
 }
 
-h2,p {
+h2 ,p {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -135,7 +135,7 @@ main .button a {
 /* Gauges de Compétences */
 
 .gaugeFont {
-    background-image: linear-gradient(0.4turn,lime 30%, orange 50%, red 80%);
+    background-color: cornflowerblue;
     border: black solid 3px;
     width: 150px;
     height: 150px;
@@ -160,30 +160,16 @@ main .button a {
     height: 5vh;
 }
 
-/********************   modal de contact   ****************************/
-#contactContainer form {
-    /* Uniquement centrer la modal sur la page */
-    width: 400px;
-    /* Encadré pour voir les limites de la modal */
-    padding: 1em;
-    border: 1px solid #CCC;
-    border-radius: 1em;
-    background-color: black;
-}
-  
-#contactContainer form div {
-    margin-top: 1em;
+/* Gauge Canvas*/
+.gaugeRound {
+    border : 10px solid black;
+    border-radius: 85px;
 }
 
-.infos {
-    margin: 0 auto;
-    margin-top: 20vh;
-    height: 300px;
-    border: 1px solid grey;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 20px 0;
-    background-color: black;
-    opacity: 0.9;
+.gaugeText2 {
+    width: 95%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    top: 72px;
 }
