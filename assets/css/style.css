@@ -91,7 +91,7 @@ h1 {
     text-transform: uppercase;
 }
 
-#skillsContainer h1, #careerContainer h1, #contactContainer h1 {
+#skillsContainer h1, #careerContainer h1, #contactContainer h1, #careerContainer h2 {
     margin-bottom: 50px;
 }
 
@@ -130,34 +130,6 @@ main .button a {
     background-color: black;
     opacity: 0.9;
     color: white;
-}
-
-/* Gauges de Compétences */
-
-.gaugeFont {
-    background-color: cornflowerblue;
-    border: black solid 3px;
-    width: 150px;
-    height: 150px;
-    border-radius: 75px;
-    margin: auto;
-}
-
-.gaugeText {
-    background-color: black;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    margin: 25px auto;
-}
-
-.gaugeText > p {
-    position: relative;
-    top: 35px;
-}
-
-.spacedElement {
-    height: 5vh;
 }
 
 /* Gauge Canvas*/
