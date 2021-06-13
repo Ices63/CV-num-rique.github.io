@@ -55,6 +55,15 @@ gaugeSetup();
 canvas = document.getElementById('JavaScript');
 gaugeSetup();
 
+canvas = document.getElementById('JQuery');
+gaugeSetup();
+
+canvas = document.getElementById('C#');
+gaugeSetup();
+
+canvas = document.getElementById('SQL Server');
+gaugeSetup();
+
 function gaugeSetup() {
 
     ctx = canvas.getContext('2d');
@@ -118,6 +127,24 @@ function gaugeSetup() {
 
     if (canvas.id == "JavaScript") {
         skillLevel = 1;
+        Level();
+
+    }
+
+    if (canvas.id == "JQuery") {
+        skillLevel = -1;
+        Level();
+
+    }
+
+    if (canvas.id == "C#") {
+        skillLevel = 0;
+        Level();
+
+    }
+
+    if (canvas.id == "SQL Server") {
+        skillLevel = 0;
         Level();
 
     }
