@@ -106,7 +106,8 @@ header, main {
 }
 
 .profilImage {
-    width: 50vh !important;
+    width: 400px !important;
+    height: 400px;
     margin: auto;
     border: 1px solid grey;
     background-color: black;
@@ -114,9 +115,8 @@ header, main {
 }
 
 .profilImage > img {
-    width: 50vh;
-    margin-left: -13px;
-    padding: 70px;
+    width: 400px;
+    padding: 15px;
 }
 
 main .button {
