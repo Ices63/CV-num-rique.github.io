@@ -35,6 +35,16 @@ document.getElementById('contact').addEventListener('click',function() {
     contact.style.display = "block";
 });
 
+photo = document.getElementById('photo'),
+
+photo.addEventListener('mouseover',function() {
+    photo.src = "assets/img/photo.png";
+});
+
+photo.addEventListener('mouseout',function() {
+    photo.src = "assets/img/darkPhoto.png";
+});
+
 // ***** ***** ****** Gauges de compétences ***** ****** ***** //
 
 var canvas;
