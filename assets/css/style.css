@@ -119,9 +119,21 @@ header, main {
     padding: 15px;
 }
 
+
+
 main .button {
     margin-top: 2em;
     position: relative;
+}
+
+#cache {
+position: absolute;
+    transition-property: opacity;
+    transition-duration: 1s;
+}
+
+#cache:hover {
+    opacity: 0%;
 }
 
 main .button a {
