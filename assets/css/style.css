@@ -69,7 +69,7 @@ header .show,header .collapsing {
         rgba( 0,0,0,1 ) 40%, rgba( 0,0,0,0 ) 45%, rgba( 0,0,0,0 ) 55%, rgba( 0,0,0,1 ) 60%);
     color: white;
     height: 100%;
-    width: 20%;
+    width: 20vw;
 
     animation: 60s linear 0s infinite BrightZone;
 }
